@@ -1,0 +1,19 @@
+{
+  "name": "flowfriends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahYarian/flowfriends.git"
+  },
+  "author": "Noah Yarian <Noah.Yarian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoahYarian/flowfriends/issues"
+  },
+  "homepage": "https://github.com/NoahYarian/flowfriends#readme"
+}
