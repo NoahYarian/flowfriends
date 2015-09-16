@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div
+    ul.menu
+      li
+        a(ui-sref='view1') view1
+      li
+        a(ui-sref='view2') view2
+
+    div(ui-view)
+
+    div
+      | Angular seed app: v
+      span(app-version)
