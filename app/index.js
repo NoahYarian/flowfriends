@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(express.static('www'));
 
 app.use('/', routes);
 
