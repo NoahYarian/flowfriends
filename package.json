@@ -15,5 +15,24 @@
   "bugs": {
     "url": "https://github.com/NoahYarian/flowfriends/issues"
   },
-  "homepage": "https://github.com/NoahYarian/flowfriends#readme"
+  "homepage": "https://github.com/NoahYarian/flowfriends#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "body-parser": "^1.13.3",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "jade": "^1.11.0",
+    "mongodb": "^2.0.43",
+    "morgan": "^1.6.1",
+    "node-sass-middleware": "^0.9.0",
+    "passport": "^0.3.0",
+    "passport-facebook": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^1.4.3",
+    "mocha": "^2.3.2",
+    "supertest": "^1.1.0"
+  }
 }
