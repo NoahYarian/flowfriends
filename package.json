@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "lint": "eslint .",
+    "start": "node index.js --compilers js:babel/register",
+    "test": "NODE_ENV=test mocha app --opts mocha.opts --recursive --compilers js:babel/register"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
     "express-session": "^1.11.3",
     "jade": "^1.11.0",
     "mongodb": "^2.0.43",
+    "mongoose": "^4.1.7",
     "morgan": "^1.6.1",
     "node-sass-middleware": "^0.9.0",
     "passport": "^0.3.0",
