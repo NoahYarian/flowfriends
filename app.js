@@ -26,13 +26,11 @@ app.use(sass({
   dest: 'www/styles',
   outputStyle: 'nested',
   prefix: '/styles'
-
 }));
 
 app.use('/', routes);
 
 app.listen(app.get('port'), function() {
   console.log('Express listening on port ' + app.get('port'));
-  // console.log(`Express listening on port ${app.get('port')}`);
 });
 

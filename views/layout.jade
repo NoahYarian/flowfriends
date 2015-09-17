@@ -7,11 +7,11 @@ html(ng-app='myApp')
     title Angular | Jade
     //- base(href='/')
     include partials/stylesheets
-  body
-    include partials/header
+  body(layout='column' ng-controller="AppCtrl")
+    //- include partials/header
 
     block content
 
-    include partials/footer
+    //- include partials/footer
 
     include partials/javascripts
